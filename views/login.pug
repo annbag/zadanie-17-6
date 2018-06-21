@@ -3,15 +3,16 @@ html
 	title
 		logowanie
 	body
-		div.form
+		div
 			h1 Logowanie
-			div
-				label Login
-				input
-			div
-				label Password
-				input
 			form(action='http://localhost:4000/logged', method= 'GET')
-				input(type='submit' value='Log in')
+				div
+					label Login
+					input
+				div
+					label Password
+					input
+				div
+					input(type='submit' value='Log in')
 			
 				//button(href= url) Log in
